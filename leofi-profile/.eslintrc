@@ -1,0 +1,126 @@
+{
+  "root": true,
+  "extends": ["airbnb", "airbnb-typescript"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier", "react-hooks"],
+  "env": {
+    "browser": false,
+    "node": true
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".js", ".ts", ".tsx"]
+      }
+    ],
+    "import/extensions": 0,
+    "react/react-in-jsx-scope": 0,
+    "max-len": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "import/no-extraneous-dependencies": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "linebreak-style": 0,
+    "@typescript-eslint/no-use-before-define": [
+      1,
+      {
+        "functions": false
+      }
+    ],
+    "import/no-useless-path-segments": 0,
+    "no-use-before-define": 0,
+    "react/require-default-props": 0,
+    "react/jsx-wrap-multilines": 0,
+    "react/prop-types": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "generator-star-spacing": 0,
+    "function-paren-newline": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-prototype-builtins": 0,
+    "import/prefer-default-export": 0,
+    "import/no-default-export": [0, "camel-case"],
+    "react/destructuring-assignment": 0,
+    "unicorn/prevent-abbreviations": 0,
+    "import/no-cycle": 0,
+    "react-hooks/rules-of-hooks": 2,
+    "react/self-closing-comp": 0,
+    "react/jsx-props-no-spreading": 0,
+    "arrow-body-style": 0,
+    "object-curly-newline": 0,
+    "implicit-arrow-linebreak": 0,
+    "operator-linebreak": 0,
+    "quotes": 0,
+    "@typescript-eslint/quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "@typescript-eslint/no-shadow": 0,
+    "nonblock-statement-body-position": 0,
+    "curly": 0,
+    "no-unused-vars": 0,
+    "react/jsx-no-duplicate-props": 0,
+    "no-trailing-spaces": 1,
+    "global-require": 0,
+    "import/no-dynamic-require": 0,
+    "no-underscore-dangle": 0,
+    "no-shadow": 0,
+    "no-alert": 2,
+    "eslint-comments/no-unlimited-disable": 0,
+    "arrow-parens": 0,
+    "no-undef": 0,
+    "no-confusing-arrow": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "@typescript-eslint/indent": 0,
+    "indent": 0,
+    "import/order": 0,
+    "newline-before-return": 0,
+    "@typescript-eslint/comma-dangle": 0,
+    "@typescript-eslint/naming-convention": 0,
+    "no-param-reassign": 0,
+    "consistent-return": 0,
+    "@typescript-eslint/dot-notation": 0,
+    "import/no-duplicates": 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "react/jsx-fragments": 0,
+    "react/no-unused-prop-types": 0,
+    "no-plusplus": 0,
+    "react/no-array-index-key": 0,
+    "react/no-unused-state": 0,
+    "no-restricted-globals": 0,
+    "class-methods-use-this": 0,
+    "react/static-property-placement": 0,
+    "default-case": 0,
+    "no-return-assign": 0,
+    "react/sort-comp": 0,
+    "no-console": 0,
+    "react/state-in-constructor": 0,
+    "no-bitwise": 0,
+    "radix": 0
+  },
+  "overrides": [
+    {
+      "files": ["src/utils/others/pick/index.ts"],
+      "rules": {
+        "no-param-reassign": 0
+      }
+    }
+  ]
+}

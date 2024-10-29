@@ -1,0 +1,20 @@
+{
+  "name": "xrpl-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maximedgr",
+  "license": "ISC",
+  "description": "Deploy your first Solidity contract on the XRPL EVM Sidechain using Hardhat. ",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.9",
+    "hardhat": "^2.22.8"
+  },
+  "dependencies": {
+    "@tokenf/contracts": "^0.2.0",
+    "dotenv": "^16.4.5"
+  }
+}

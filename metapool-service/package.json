@@ -1,0 +1,34 @@
+{
+  "name": "pricefeed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "axios": "^0.27.2",
+    "bluebird": "^3.7.2",
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.6",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "http-status": "^1.5.2",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.0",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "redis": "^3.1.2",
+    "web3": "^1.7.3",
+    "web3-eth-contract": "^1.7.3",
+    "winston": "^3.7.2",
+    "winston-transport-sentry-node": "^2.3.0",
+    "worker-threads": "^1.0.0"
+  }
+}
