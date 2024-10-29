@@ -1,98 +1,92 @@
-# LeoFi Bot: Your Smart DeFi Assistant
+# LeoFi - Staking Assistant
 
-![LeoFi Logo](https://hebbkx1anhila5yf.public.blob.vercel-storage.com/LeoFi_4x4-qV8iHK5K8IxONkFo4Fe4Hwu9AwMHf0.jpg)
+LeoFi is a staking assistant designed to work with Meta Pool, a multi-chain, Liquid-Staking Based Ecosystem. This project aims to simplify the staking process and provide users with an intuitive interface for managing their stakes across various blockchains.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.5%2B-blue)](https://www.typescriptlang.org/)
-[![Aptos](https://img.shields.io/badge/Aptos-Ready-blue)](https://aptoslabs.com/)
+## What is Meta Pool?
 
-LeoFi Bot is an intelligent DeFi assistant designed specifically for the Aptos blockchain ecosystem. With advanced AI capabilities and real-time market data integration, LeoFi Bot provides personalized investment advice, portfolio management, and seamless interactions with Aptos-based DeFi protocols.
+Meta Pool's objective is to provide easy and permissionless access to Web3 financial tools for everybody. It encompasses:
+
+- **Vote-to-Earn**: An attractive DAO governance system that pays participants.
+- **Liquid Staking Tokens**: Available on Ethereum, NEAR, Solana, Aurora, ICP, and Q.
+- **Liquidity Pools**: Allowing everyone to become a liquidity provider.
+- **Launchpad**: To help launch new projects with your staking rewards.
+- **Bond Market**: For trading locked positions.
+
+The Meta Pool DAO currently allows users to liquid-stake with the same simple and approachable interface across Ethereum, NEAR, Solana, and Aurora, with constant expansion to more blockchains.
 
 ## Features
 
-- **Cross-Chain Portfolio Management**: Analyze and optimize your DeFi portfolio across both Aptos-based and EVM-compatible protocols and tokens.
-- **Real-time Market Insights**: Access up-to-date information on token prices, liquidity pools, and yield farming opportunities within both Aptos and EVM-compatible ecosystems.
-- **Automated Trading Strategies**: Set up and execute custom trading strategies based on market conditions and your risk profile for both Aptos and EVM-compatible chains.
-- **Multi-Chain DeFi Protocol Interactions**: Seamlessly interact with popular DeFi protocols across both Aptos and EVM-compatible side-chains directly through the bot.
-- **Risk Assessment for Investments**: Evaluate the risks associated with different DeFi investments on both Aptos and EVM-compatible networks and receive tailored recommendations.
-- **Gas Fee Optimization**: Get suggestions for the best times to execute transactions to minimize gas fees, whether operating on the Aptos network or EVM-compatible side-chains.
-- **Multi-Chain Ecosystem Support**: Operate within both the Aptos blockchain and EVM-compatible side-chains, with potential for further multi-chain expansion.
-- **DeFi Educational Resources**: Access a wealth of knowledge about DeFi across both Aptos and EVM ecosystems and learn about new protocols and strategies specific to each network.
+- Easy-to-use interface for staking across multiple chains
+- Real-time staking rewards tracking
+- Integration with Meta Pool's Vote-to-Earn system
+- Support for liquid staking tokens
+- Access to liquidity pools and bond markets
 
-## Prerequisites
+## Getting Started
 
-Before you begin, ensure you have met the following requirements:
+### Prerequisites
 
-- Node.js (v14.0.0 or later)
-- npm (v6.0.0 or later)
-- An Aptos-compatible wallet (e.g., Petra, Martian)
-- Basic knowledge of DeFi concepts and Aptos blockchain technology
+- Node.js (v14 or later)
+- npm (v6 or later)
+- Git
 
-## Installation
-
-To install LeoFi Bot, follow these steps:
+### Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/leofi/leofi-aptos-bot.git
+   git clone https://github.com/your-username/leofi-staking-assistant.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd leofi-aptos-bot
+   cd leofi-staking-assistant
    ```
 
-3. Install the dependencies:
+3. Install dependencies:
    ```
    npm install
    ```
 
-4. Create a `.env` file in the root directory and add your configuration:
+### Configuration
+
+1. Copy the example environment file:
    ```
-   API_KEY=your_api_key_here
-   APTOS_NODE_URL=https://fullnode.mainnet.aptoslabs.com/v1
+   cp .env.example .env
    ```
 
-5. Build the project:
+2. Edit the `.env` file and add your Meta Pool API keys and other necessary configurations.
+
+### Running the Application
+
+1. Start the development server:
    ```
-   npm run build
+   npm run dev
    ```
+
+2. Open your browser and navigate to `http://localhost:3000` to access the LeoFi Staking Assistant.
 
 ## Usage
 
-To start using LeoFi Bot, run the following command:
-
-```
-npm start
-```
-
-This will launch the bot's interface. Connect your Aptos wallet when prompted, and you'll be ready to start exploring the world of Aptos DeFi with LeoFi Bot!
-
-Here are some example commands you can try:
-
-- `/portfolio`: View your current Aptos DeFi portfolio
-- `/market APT`: Get real-time market data for the Aptos native token
-- `/strategy liquid-swap`: Set up a liquidity provision strategy on Aptos DEXes
-- `/risk-assess CAKE`: Evaluate the risks associated with PancakeSwap on Aptos
-- `/educate move-language`: Learn about the Move programming language used in Aptos
+1. Connect your wallet to the application.
+2. Choose the blockchain you want to stake on (Ethereum, NEAR, Solana, or Aurora).
+3. Select the amount you want to stake.
+4. Confirm the transaction and start earning rewards!
 
 ## Contributing
 
-We welcome contributions to LeoFi Bot! If you have suggestions for improvements or encounter any issues, please feel free to open an issue or submit a pull request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
-
-Please make sure to update tests as appropriate and adhere to the project's code style guidelines.
+We welcome contributions to the LeoFi Staking Assistant project. Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
----
+## Acknowledgments
 
-Happy Aptos DeFi-ing with LeoFi Bot! 🚀🦁💰
+- Meta Pool team for their innovative multi-chain liquid staking ecosystem
+- The open-source community for their valuable tools and libraries
+
+## Support
+
+If you encounter any issues or have questions, please file an issue on the GitHub repository or contact our support team at support@leofi.io.
+
+Happy staking with LeoFi and Meta Pool!
